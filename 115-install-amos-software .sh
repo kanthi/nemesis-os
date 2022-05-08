@@ -54,7 +54,7 @@ sudo pacman -S --noconfirm --needed amos-config-git
 sudo pacman -S --noconfirm --needed amos-gtk-themes-git
 sudo pacman -S --noconfirm --needed amos-neofetch-config-git
 sudo pacman -S --noconfirm --needed zsh-theme-powerlevel10k-git
-sudo pacman -S --noconfirm --needed ttf-meslow-nerd-font-powerlevel10k
+sudo pacman -S --noconfirm --needed ttf-meslo-nerd-font-powerlevel10k
 sudo pacman -S --noconfirm --needed bibata-cursor-theme
 sudo pacman -S --noconfirm --needed bibata-extra-cursor-theme
 sudo pacman -S --noconfirm --needed bibata-rainbow-cursor-theme
@@ -79,10 +79,10 @@ sudo pacman -S --noconfirm --needed samsung-unified-driver-scanner
 sudo pacman -S --noconfirm --needed spotrec
 sudo pacman -S --noconfirm --needed amos-pixmaps-git
 sudo pacman -S --noconfirm --needed amos-root-git
-sudo pacman -S --noconfirm --needed
-sudo pacman -S --noconfirm --needed
-sudo pacman -S --noconfirm --needed
-sudo pacman -S --noconfirm --needed
+sudo pacman -S --noconfirm --needed steam
+sudo pacman -S --noconfirm --needed steam-fonts
+sudo pacman -S --noconfirm --needed steam-tweaks
+sudo pacman -S --noconfirm --needed steam-native-runtime
 sudo pacman -S --noconfirm --needed
 sudo pacman -S --noconfirm --needed
 sudo pacman -S --noconfirm --needed

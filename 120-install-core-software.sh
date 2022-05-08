@@ -41,7 +41,8 @@ sudo pacman -S --noconfirm --needed bash-completion
 sudo pacman -S --noconfirm --needed bat
 sudo pacman -S --noconfirm --needed bibata-cursor-theme-bin
 sudo pacman -S --noconfirm --needed catfish
-sudo pacman -S --noconfirm --needed chromium
+sudo pacman -S --noconfirm --needed conky-lua-archers
+#sudo pacman -S --noconfirm --needed chromium
 sudo pacman -S --noconfirm --needed cpuid
 sudo pacman -S --noconfirm --needed curl
 sudo pacman -S --noconfirm --needed discord
@@ -97,6 +98,7 @@ sudo pacman -S --noconfirm --needed openresolv
 sudo pacman -S --noconfirm --needed paru-bin
 sudo pacman -S --noconfirm --needed pavucontrol
 sudo pacman -S --noconfirm --needed playerctl
+sudo pacman -S --noconfirm --needed plank
 sudo pacman -S --noconfirm --needed polkit-gnome
 sudo pacman -S --noconfirm --needed python-pywal
 sudo pacman -S --noconfirm --needed pv
@@ -162,10 +164,10 @@ sudo pacman -S --noconfirm --needed system-config-printer
 sudo pacman -S --noconfirm --needed sane
 sudo pacman -S --noconfirm --needed simple-scan
 
-sudo pacman -S --noconfirm --needed rxvt-unicode
-sudo pacman -S --noconfirm --needed urxvt-fullscreen
-sudo pacman -S --noconfirm --needed urxvt-perls
-sudo pacman -S --noconfirm --needed urxvt-resize-font-git
+#sudo pacman -S --noconfirm --needed rxvt-unicode
+#sudo pacman -S --noconfirm --needed urxvt-fullscreen
+#sudo pacman -S --noconfirm --needed urxvt-perls
+#sudo pacman -S --noconfirm --needed urxvt-resize-font-git
 
 sudo pacman -S --noconfirm --needed gzip
 sudo pacman -S --noconfirm --needed p7zip
@@ -220,7 +222,7 @@ if [ -f /usr/share/xsessions/xfce.desktop ]; then
   sudo pacman -S --noconfirm --needed sardi-icons
   sudo pacman -S --noconfirm --needed tempus-themes-xfce4-terminal-git
   sudo pacman -S --noconfirm --needed xfce4-terminal-base16-colors-git
-
+  sudo pacman -S --noconfirm --needed xfce-genmon-plugin
 fi
 
 echo
