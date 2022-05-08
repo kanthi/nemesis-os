@@ -51,7 +51,18 @@ sudo pacman -S --noconfirm --needed arcolinux-pamac-all
 sudo pacman -S --noconfirm --needed archlinux-tweak-tool-git
 sudo pacman -S --noconfirm --needed arcolinux-arc-themes-2021-creative-git
 sudo pacman -S --noconfirm --needed arcolinux-arc-themes-2021-git
-sudo pacman -S --noconfirm --needed 
+sudo pacman -S --noconfirm --needed etcher-bin
+sudo pacman -S --noconfirm --needed proton-ge-custom-bin
+sudo pacman -S --noconfirm --needed skypeforlinux-stable-bin
+sudo pacman -S --noconfirm --needed goverlay-bin
+sudo pacman -S --noconfirm --needed halo-icons-git
+sudo pacman -S --noconfirm --needed protonup-git
+sudo pacman -S --noconfirm --needed proton-community-updater
+sudo pacman -S --noconfirm --needed
+sudo pacman -S --noconfirm --needed
+sudo pacman -S --noconfirm --needed
+sudo pacman -S --noconfirm --needed
+sudo pacman -S --noconfirm --needed
 sudo pacman -S --noconfirm --needed
 echo
 tput setaf 2

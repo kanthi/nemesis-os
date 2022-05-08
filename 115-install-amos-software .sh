@@ -83,9 +83,9 @@ sudo pacman -S --noconfirm --needed steam
 sudo pacman -S --noconfirm --needed steam-fonts
 sudo pacman -S --noconfirm --needed steam-tweaks
 sudo pacman -S --noconfirm --needed steam-native-runtime
-sudo pacman -S --noconfirm --needed
-sudo pacman -S --noconfirm --needed
-sudo pacman -S --noconfirm --needed
+sudo pacman -S --noconfirm --needed smplayer
+sudo pacman -S --noconfirm --needed smplayer-skins
+sudo pacman -S --noconfirm --needed smplayer-themes
 sudo pacman -S --noconfirm --needed
 sudo pacman -S --noconfirm --needed
 sudo pacman -S --noconfirm --needed
