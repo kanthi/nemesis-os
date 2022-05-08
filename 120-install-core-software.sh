@@ -74,6 +74,7 @@ sudo pacman -S --noconfirm --needed htop
 sudo pacman -S --noconfirm --needed hw-probe
 sudo pacman -S --noconfirm --needed inkscape
 sudo pacman -S --noconfirm --needed insync
+sudo pacman -S --noconfirm --needed imagewriter
 sudo pacman -S --noconfirm --needed kvantum
 sudo pacman -S --noconfirm --needed linux-firmware-qlogic
 sudo pacman -S --noconfirm --needed logrotate
@@ -96,6 +97,7 @@ sudo pacman -S --noconfirm --needed numlockx
 sudo pacman -S --noconfirm --needed oh-my-zsh-git
 sudo pacman -S --noconfirm --needed openresolv
 sudo pacman -S --noconfirm --needed paru-bin
+sudo pacman -S --noconfirm --needed pragha
 sudo pacman -S --noconfirm --needed pavucontrol
 sudo pacman -S --noconfirm --needed playerctl
 sudo pacman -S --noconfirm --needed plank
@@ -120,6 +122,8 @@ sudo pacman -S --noconfirm --needed telegram-desktop
 sudo pacman -S --noconfirm --needed the_platinum_searcher-bin
 sudo pacman -S --noconfirm --needed the_silver_searcher
 sudo pacman -S --noconfirm --needed time
+sudo pacman -S --noconfirm --needed thunderbird
+
 sudo pacman -S --noconfirm --needed tree
 sudo pacman -S --noconfirm --needed ttf-bitstream-vera
 sudo pacman -S --noconfirm --needed ttf-dejavu
