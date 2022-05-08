@@ -49,8 +49,10 @@ sudo pacman -S --noconfirm --needed arcolinux-hblock-git
 sudo pacman -S --noconfirm --needed archlinux-logout-git
 sudo pacman -S --noconfirm --needed arcolinux-pamac-all
 sudo pacman -S --noconfirm --needed archlinux-tweak-tool-git
-
-
+sudo pacman -S --noconfirm --needed arcolinux-arc-themes-2021-creative-git
+sudo pacman -S --noconfirm --needed arcolinux-arc-themes-2021-git
+sudo pacman -S --noconfirm --needed 
+sudo pacman -S --noconfirm --needed
 echo
 tput setaf 2
 echo "################################################################"
