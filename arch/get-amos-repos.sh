@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-echo "Getting the latest arcolinux mirrors file"
+echo "Getting the AmOs Repositories"
 
 echo '
 [amos-repo]
