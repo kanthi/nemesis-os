@@ -41,6 +41,7 @@ if [ -f /usr/local/bin/get-nemesis-on-arcolinux ]; then
   sudo pacman -Rs arcolinux-root-git --noconfirm
   sudo pacman -Rs arcolinux-xfce4-git --noconfirm
   sudo pacman -Rs arcolinux-plank-themes-git --noconfirm
+  sudo pacman -Rs arcolinux-plank-git --noconfirm
   echo
   tput setaf 2
   echo "################################################################"
