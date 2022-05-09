@@ -45,6 +45,7 @@ fi
 
 sudo pacman -S --noconfirm --needed amos-xfce4-git
 sudo pacman -S --noconfirm --needed amos-xfce-styles
+sudo pacman -S --noconfirm --needed amos-xfce-styles-notebook
 sudo pacman -S --noconfirm --needed amos-pywal-conky-git
 sudo pacman -S --noconfirm --needed amos-sweet-icons-git
 sudo pacman -S --noconfirm --needed amos-dconf-git
