@@ -38,6 +38,7 @@ if [ -f /usr/local/bin/get-nemesis-on-arcolinux ]; then
   sudo pacman -Rs xf86-video-ati --noconfirm
   sudo pacman -Rs xf86-video-nouveau --noconfirm
   sudo pacman -Rs xf86-video-vesa --noconfirm
+  sudo pacman -Rs arcolinux-root-git --noconfirm
 
   echo
   tput setaf 2
