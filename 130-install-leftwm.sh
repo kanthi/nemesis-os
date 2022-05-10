@@ -78,10 +78,9 @@ if [ -f /usr/share/xsessions/leftwm.desktop ]; then
   echo
 
 
-  #sh ~/.config/leftwm/scripts/install-all-arcolinux-themes.sh
-  #sh ~/.config/leftwm/scripts/install-all-arcolinux-community-themes.sh
-
-  leftwm-theme update
+  sh ~/.config/leftwm/scripts/install-all-amos-themes.sh
+   
+  #leftwm-theme update
   leftwm-theme apply amos-eos-apollo
 
 fi

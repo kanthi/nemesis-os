@@ -64,10 +64,17 @@ sh 950-install-all-fonts-needed-for-conkys-of-arcolinux*
 sh 980-eos*
 sh 999-skel*
 sudo chsh $USER -s /bin/zsh
+
+# Change all scripts  executable.
+find $HOME/amos-nemesis/ -type f -print0 | xargs -0 chmod 775
+find $HOME/amos-nemesis/arch -type f -print0 | xargs -0 chmod 775
+find $HOME/amos-nemesis/AUR -type f -print0 | xargs -0 chmod 775
+find $HOME/amos-nemesis/Personal -type f -print0 | xargs -0 chmod 775
+
 tput setaf 3
+
 echo "################################################################"
 echo "End current choices"
 echo "################################################################"
 tput sgr0
-sleep2
 sudo reboot
