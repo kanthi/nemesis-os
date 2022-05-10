@@ -27,6 +27,12 @@ echo
 
 sudo pacman -Sy
 
+# Change all scripts  executable.
+find $HOME/amos-nemesis/ -type f -print0 | xargs -0 chmod 775
+find $HOME/amos-nemesis/arch -type f -print0 | xargs -0 chmod 775
+find $HOME/amos-nemesis/AUR -type f -print0 | xargs -0 chmod 775
+find $HOME/amos-nemesis/Personal -type f -print0 | xargs -0 chmod 775
+
 sh 400-remove-software*
 
 sh 100-install-nemesis-software*
@@ -65,11 +71,6 @@ sh 980-eos*
 sh 999-skel*
 sudo chsh $USER -s /bin/zsh
 
-# Change all scripts  executable.
-find $HOME/amos-nemesis/ -type f -print0 | xargs -0 chmod 775
-find $HOME/amos-nemesis/arch -type f -print0 | xargs -0 chmod 775
-find $HOME/amos-nemesis/AUR -type f -print0 | xargs -0 chmod 775
-find $HOME/amos-nemesis/Personal -type f -print0 | xargs -0 chmod 775
 
 tput setaf 3
 
