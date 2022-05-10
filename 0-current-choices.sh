@@ -63,9 +63,11 @@ sh 940-btrfs-setup*
 sh 950-install-all-fonts-needed-for-conkys-of-arcolinux*
 sh 980-eos*
 sh 999-skel*
-
+sudo chsh $USER -s /bin/zsh
 tput setaf 3
 echo "################################################################"
 echo "End current choices"
 echo "################################################################"
 tput sgr0
+sleep2
+sudo reboot
