@@ -1,6 +1,7 @@
 #!/bin/bash
 #set -e
 
+##################################################################################################################
 #tput setaf 0 = black
 #tput setaf 1 = red
 #tput setaf 2 = green
@@ -78,10 +79,11 @@ if [ -f /usr/share/xsessions/leftwm.desktop ]; then
   echo
 
 
-  sh ~/.config/leftwm/scripts/install-all-amos-themes.sh
-   
+  #sh ~/.config/leftwm/scripts/install-all-arcolinux-themes.sh
+  #sh ~/.config/leftwm/scripts/install-all-arcolinux-community-themes.sh
+
   #leftwm-theme update
-  leftwm-theme apply amos-eos-apollo
+  leftwm-theme apply amos-candy
 
 fi
 
