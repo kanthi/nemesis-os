@@ -122,7 +122,6 @@ sudo pacman -S --noconfirm --needed the_platinum_searcher-bin
 sudo pacman -S --noconfirm --needed the_silver_searcher
 sudo pacman -S --noconfirm --needed time
 sudo pacman -S --noconfirm --needed thunderbird
-
 sudo pacman -S --noconfirm --needed tree
 sudo pacman -S --noconfirm --needed ttf-bitstream-vera
 sudo pacman -S --noconfirm --needed ttf-dejavu
@@ -226,6 +225,7 @@ if [ -f /usr/share/xsessions/xfce.desktop ]; then
   sudo pacman -S --noconfirm --needed tempus-themes-xfce4-terminal-git
   sudo pacman -S --noconfirm --needed xfce4-terminal-base16-colors-git
   sudo pacman -S --noconfirm --needed xfce4-genmon-plugin
+  sudo pacman -S --noconfirm --needed xfce4-xfce4-mpc-plugin
 fi
 
 echo
