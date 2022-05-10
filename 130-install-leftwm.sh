@@ -41,7 +41,7 @@ echo
 
 
 list=(
-amos-leftwm-git
+amos-leftwm-config-git
 leftwm-dev-git
 leftwm-theme-git
 lxappearance
