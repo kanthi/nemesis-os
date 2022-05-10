@@ -14,31 +14,6 @@
 
 installed_dir=$(dirname $(readlink -f $(basename `pwd`)))
 
-echo
-tput setaf 2
-echo "################################################################"
-echo "################### Personal settings to install"
-echo "################################################################"
-tput sgr0
-echo
-echo "Creating folders we use later"
-echo
-[ -d $HOME"/.bin" ] || mkdir -p $HOME"/.bin"
-[ -d $HOME"/.fonts" ] || mkdir -p $HOME"/.fonts"
-[ -d $HOME"/.icons" ] || mkdir -p $HOME"/.icons"
-[ -d $HOME"/.themes" ] || mkdir -p $HOME"/.themes"
-[ -d $HOME"/.local/share/icons" ] || mkdir -p $HOME"/.local/share/icons"
-[ -d $HOME"/.local/share/themes" ] || mkdir -p $HOME"/.local/share/themes"
-[ -d $HOME"/.config" ] || mkdir -p $HOME"/.config"
-echo
-echo "Installing all shell files"
-echo
-cp $installed_dir/settings/shell-personal/.bashrc-personal ~
-cp $installed_dir/settings/shell-personal/.zshrc ~
-cp $installed_dir/settings/shell-personal/.zshrc-personal ~
-cp $installed_dir/settings/fish/alias.fish ~/.config/fish/alias.fish
-
-
 result=$(systemd-detect-virt)
 
 if [ $result = "none" ];then
