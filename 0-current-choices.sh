@@ -36,6 +36,7 @@ sh 120-install-core-software*
 sh 130-install-leftwm*
 
 sh 200-software-AUR-repo*
+sh 210-mpd-ncmpcpp*
 #sh 300-sardi-extra-icons-AUR-repo*
 #sh 310-sardi-mint-y-icons-AUR-repo*
 #sh 320-surfn-mint-y-icons-git-AUR-repo*

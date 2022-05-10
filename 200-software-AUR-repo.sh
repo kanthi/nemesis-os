@@ -67,6 +67,8 @@ else
 
 fi
 
+
+
 # these come last always
 echo "Checking if icons from applications have a hardcoded path"
 echo "and fixing them"
