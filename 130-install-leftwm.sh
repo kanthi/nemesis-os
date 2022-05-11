@@ -82,7 +82,7 @@ if [ -f /usr/share/xsessions/leftwm.desktop ]; then
   #sh ~/.config/leftwm/scripts/install-all-arcolinux-themes.sh
   #sh ~/.config/leftwm/scripts/install-all-arcolinux-community-themes.sh
 
-  #leftwm-theme update
+  leftwm-theme update
   leftwm-theme apply amos-candy
 
 fi

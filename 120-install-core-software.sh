@@ -135,7 +135,6 @@ sudo pacman -S --noconfirm --needed ttf-ubuntu-font-family
 sudo pacman -S --noconfirm --needed spotrec
 sudo pacman -S --noconfirm --needed opera
 sudo pacman -S --noconfirm --needed opera-ffmpeg-codecs
-sudo pacman -S --noconfirm --needed vivaldi-widevine
 sudo pacman -S --noconfirm --needed vlc
 sudo pacman -S --noconfirm --needed wd719x-firmware
 sudo pacman -S --noconfirm --needed wget
