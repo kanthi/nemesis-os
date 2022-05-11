@@ -88,7 +88,7 @@ sudo pacman -S --noconfirm --needed smplayer
 sudo pacman -S --noconfirm --needed smplayer-skins
 sudo pacman -S --noconfirm --needed smplayer-themes
 sudo pacman -S --noconfirm --needed amos-bin-git
-sudo pacman -S --noconfirm --needed
+sudo pacman -S --noconfirm --needed amos-eos-apollo-wallpapers-git
 sudo pacman -S --noconfirm --needed
 sudo pacman -S --noconfirm --needed
 sudo pacman -S --noconfirm --needed
