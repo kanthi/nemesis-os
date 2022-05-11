@@ -42,7 +42,7 @@ echo
 
 
 list=(
-amos-leftwm-config-git
+arcolinux-leftwm-git
 leftwm-dev-git
 leftwm-theme-git
 lxappearance
@@ -82,7 +82,7 @@ if [ -f /usr/share/xsessions/leftwm.desktop ]; then
   #sh ~/.config/leftwm/scripts/install-all-arcolinux-themes.sh
   #sh ~/.config/leftwm/scripts/install-all-arcolinux-community-themes.sh
  # leftwm-theme update
-  #leftwm-theme apply amos-candy
+  leftwm-theme apply amos-candy
 
 fi
 
