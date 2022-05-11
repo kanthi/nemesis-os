@@ -81,8 +81,6 @@ if [ -f /usr/share/xsessions/leftwm.desktop ]; then
 
   #sh ~/.config/leftwm/scripts/install-all-arcolinux-themes.sh
   #sh ~/.config/leftwm/scripts/install-all-arcolinux-community-themes.sh
-  git clone https://github.com/amanre/amos-eos-apollo.git
-  sudo cp -rf ~/amos-nemesis/amos-eos-apollo/* ~/.config/leftwm/themes/
   leftwm-theme update
   leftwm-theme apply amos-candy
 
