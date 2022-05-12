@@ -25,7 +25,7 @@ echo "################################################################"
 tput sgr0
 echo
 
-sudo pacman -Sy
+sudo pacman -Syyu
 
 # Change all scripts  executable.
 find $HOME/amos-nemesis/ -type f -print0 | xargs -0 chmod 775
