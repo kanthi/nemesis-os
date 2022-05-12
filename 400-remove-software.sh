@@ -71,6 +71,7 @@ if grep -q "EndeavourOS" /etc/os-release; then
   sudo pacman -R --noconfirm endeavouros-skel-default endeavouros-skel-xfce4
   sudo pacman -R --noconfirm modemmanager
   sudo pacman -R --noconfirm yay-eos
+  sudo pacman -R --noconfirm xfce4-screensaver
 
   echo
   tput setaf 2
