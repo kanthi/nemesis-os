@@ -79,9 +79,9 @@ if [ -f /usr/share/xsessions/leftwm.desktop ]; then
   echo
 
 
-  sh ~/.config/leftwm/scripts/install-all-arcolinux-themes.sh
+  #sh ~/.config/leftwm/scripts/install-all-arcolinux-themes.sh
   sh ~/.config/leftwm/scripts/install-all-arcolinux-community-themes.sh
-  leftwm-theme update
+  lftwm-theme update
   leftwm-theme apply db-nemesis
 
 fi
