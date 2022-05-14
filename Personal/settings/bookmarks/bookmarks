@@ -12,5 +12,6 @@ file:///usr/share/icons
 file:///usr/share/themes
 file:///usr/share/plank
 file:///usr/share/amos
+file:///home/amanre/.config/bspwm
 file:///home/amanre/.config/xfce4
 file:///home/amanre/.config/leftwm
