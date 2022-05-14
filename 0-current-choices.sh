@@ -40,6 +40,7 @@ sh 110-install-arcolinux-software*
 sh 115-install-amos-software*
 sh 120-install-core-software*
 #sh 130-install-leftwm*
+sh 140-install-bspwm*
 
 sh 200-software-AUR-repo*
 sh 210-mpd-ncmpcpp*
