@@ -47,7 +47,7 @@ amos-bspwm-git
 awesome-terminal-fonts
 sutils-git
 lxappearance
-picom
+picom-git
 polybar
 sxhkd
 xtitle-git
@@ -55,6 +55,7 @@ amos-polybar-git
 trizen
 jgmenu
 amos-jgmenu-config-git
+
 )
 
 count=0
