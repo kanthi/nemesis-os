@@ -51,7 +51,10 @@ picom
 polybar
 sxhkd
 xtitle-git
-su
+amos-polybar-git
+trizen
+jgmenu
+amos-jgmenu-config-git
 )
 
 count=0
